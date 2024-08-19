@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700");
+.img-icon{width: 6%}
+.item {
+  border: 2px solid #222222;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  will-change: transform;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.item:hover {
+  border-color: #f23a3a;
+  transform: scale(1.005);
+}
+.item svg {
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s ease-in-out;
+}
+.item:hover svg {
+  color: #f23a3a;
+  fill: red;
+}
+.item a {
+  all: unset;
+  margin-left: auto;
+  background-color: #f23a3a;
+  padding: 12px 16px;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.item a:hover {
+  background-color: #f12626;
+}
+.item .filesize {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #888888;
+}
+.filename p{margin-top: 16px;}
